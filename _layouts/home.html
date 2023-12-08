@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<!--
+	Forty by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+  {% include head.html %}
+
+  <body>
+    {% include header.html %}
+
+    <!-- Banner -->
+    <section id="banner" class="major">
+      <div class="inner">
+        <header class="major">
+          <h1>{{ page.landing-title }}</h1>
+        </header>
+        <div class="content">
+          <p style="text-transform: uppercase">{{ site.description }}</p>
+          <ul class="actions">
+            <li><a href="#one" class="button next scrolly">Learn More</a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Main -->
+    <div id="main">
+      <!-- One -->
+
+      <div class="inner">
+        <p>
+          At Hyffen, we believe that every business has the potential to lead in
+          the digital world. Our mission is to unlock that potential. We see
+          ourselves not just as consultants but as enablers of your digital
+          success. Your goals are our driving force.
+        </p>
+        <p>
+          Specialising in artificial intelligence, data and software
+          development, we're here to transform your unique visions into tangible
+          digital solutions. We understand that in the fast-paced digital
+          landscape, the right tools can make all the difference. That's where
+          we come in. We don’t just build apps; we craft digital experiences
+          that enhance your business operations, engage your customers, and set
+          you apart in your industry.
+        </p>
+        <p>
+          Our approach is collaborative and client-focused, ensuring that every
+          solution we deliver is perfectly aligned with your specific needs and
+          aspirations. Join us at Hyffen, where your aspirations take centre
+          stage, and our expertise serves as the catalyst for your digital
+          triumph.
+        </p>
+      </div>
+
+      {% include tiles.html %}
+
+      <!-- Two -->
+    </div>
+
+    {% include footer.html %}
+  </body>
+</html>
