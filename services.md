@@ -6,7 +6,7 @@ image: assets/images/fancy_pic.jpeg
 nav-menu: true
 ---
 
-## 1 Artificial Intelligence and ML Services
+## Artificial Intelligence and ML Services
 
 **Harness the Future with Hyffen’s AI and ML Expertise**
 
@@ -51,7 +51,7 @@ What sets us apart is our commitment to making AI accessible to SMEs, helping yo
 We believe in transparent pricing that matches your business’s scale and needs. Begin with a free consultation to understand the scope and benefits for your business.
 
 
-## 2 Generative AI and GPT Services
+## Generative AI and GPT Services
 
 ### Innovate and Engage with Generative AI
 
