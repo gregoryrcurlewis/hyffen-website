@@ -5,8 +5,7 @@ description: What we do, and why
 image: assets/images/coding_screen.jpeg
 nav-menu: true
 ---
-
-sasa 
+At Hyffen, we’re all about empowering small and medium-sized enterprises with the digital tools they need to excel. We’re dedicated to demystifying technology, making it accessible, and aligning it with your business goals to ensure your growth and success.
 
 <h3>Our Story</h3> 
 
