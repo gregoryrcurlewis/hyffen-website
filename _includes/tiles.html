@@ -1,18 +1,38 @@
-{% if 'posts' == site.tiles-source %}
-    {% assign tiles = site.posts %}
-{% elsif 'pages' == site.tiles-source %}
-    {% assign tiles = site.html_pages | where_exp: "item", "item.show_tile != false" %}
-{% endif %}
+
 <section id="one" class="tiles">
-  {% for tile in tiles limit:site.tiles-count %}
+
+
   <article>
     <span class="image">
-      <img src="{{ tile.image }}" alt="{{ tile.title }}" />
+      <img src="assets/images/coding_screen.jpeg" alt="About" />
     </span>
     <header class="major">
-      <h3><a href="{{ tile.url  | relative_url }}" class="link">{{ tile.title }}</a></h3>
-      <p>{{ tile.description }}</p>
+      <h3><a href="/hyffen/about.html" class="link">About</a></h3>
+      <p>What we do, and why</p>
     </header>
   </article>
-  {% endfor %}
+
+  
+  <article>
+    <span class="image">
+      <img src="assets/images/methodology1.jpeg" alt="Methodology" />
+    </span>
+    <header class="major">
+      <h3><a href="/hyffen/methodology.html" class="link">Methodology</a></h3>
+      <p>Your Vision, Our Blueprint for Success</p>
+    </header>
+  </article>
+  
+  <article>
+    <span class="image">
+      <img src="assets/images/fancy_pic.jpeg" alt="Services" />
+    </span>
+    <header class="major">
+      <h3><a href="/hyffen/services.html" class="link">Services</a></h3>
+      <p>What we can do for you</p>
+    </header>
+  </article>
+  
+ 
+
 </section>
